@@ -17,13 +17,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// var connection = mysql.createConnection({
-//     host: "geographicdelivery.com",
-//     user: "geograp3_gds",
-//     password: "tcarol1",
-//     database: "geograp3_test"
-// });
-
 var connection = mysql.createConnection({
     host: "localhost",
     user: "root",
